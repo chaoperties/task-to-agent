@@ -1,9 +1,21 @@
+<div align="center">
+
 # task-to-agent
+
+### Hand the task to an agent. Keep the verification.
+
+[Install](#install) · [Use](#use) · [Profiles](#profiles) · [License](#license)
 
 [![Claude Code skill](https://img.shields.io/badge/Claude_Code-skill-D97757?logo=claude&logoColor=white)](https://docs.claude.com/en/docs/claude-code/skills)
 [![Requires Paradev CLI](https://img.shields.io/badge/requires-Paradev_CLI-blue)](https://docs.paradev.com/cli/getting-started)
 [![Last commit](https://img.shields.io/github/last-commit/chaoperties/task-to-agent)](https://github.com/chaoperties/task-to-agent/commits/main)
 [![License: MIT](https://img.shields.io/github/license/chaoperties/task-to-agent)](LICENSE)
+
+<br>
+
+[![Install](https://img.shields.io/badge/Install-git_clone_%2B_.%2Finstall.sh-D97757?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=3A3466)](#install)
+
+</div>
 
 Claude Code skill `/task-to-agent`: hand an issue, or a task on an open PR (E2E, review fixes,
 follow-up), to a coding agent (Codex, Claude, Gemini, …) in its own [Paradev](https://paradev.dev)
