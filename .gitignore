@@ -1,0 +1,5 @@
+.DS_Store
+.trace-mcp/
+# Profiles are personal: keep them local, only the template is shared.
+skills/task-to-agent/profiles/*
+!skills/task-to-agent/profiles/_template.md
