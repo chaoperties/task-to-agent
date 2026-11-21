@@ -1,4 +1,4 @@
-# cpt_task_to_agent
+# task-to-agent
 
 Claude Code skill `/task-to-agent`: hand an issue, or a task on an open PR (E2E, review fixes,
 follow-up), to a coding agent (Codex, Claude, Gemini, …) in its own [Paradev](https://paradev.dev)
@@ -12,7 +12,7 @@ dispatch agent → wait in a background shell → verify (rerun checks yourself)
 Needs `git`, `gh` (logged in), `jq`, `perl`, Docker and the Paradev CLI (`superset`).
 
 ```bash
-git clone git@github.com:chaoperties/cpt_task_to_agent.git && cd cpt_task_to_agent && ./install.sh
+git clone https://github.com/chaoperties/task-to-agent.git && cd task-to-agent && ./install.sh
 ```
 
 `install.sh` symlinks `skills/*` into `~/.claude/skills` and `~/.agents/skills`, so `git pull`
