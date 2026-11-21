@@ -1,5 +1,10 @@
 # task-to-agent
 
+[![Claude Code skill](https://img.shields.io/badge/Claude_Code-skill-D97757?logo=claude&logoColor=white)](https://docs.claude.com/en/docs/claude-code/skills)
+[![Requires Paradev CLI](https://img.shields.io/badge/requires-Paradev_CLI-blue)](https://docs.paradev.com/cli/getting-started)
+[![Last commit](https://img.shields.io/github/last-commit/chaoperties/task-to-agent)](https://github.com/chaoperties/task-to-agent/commits/main)
+[![License: MIT](https://img.shields.io/github/license/chaoperties/task-to-agent)](LICENSE)
+
 Claude Code skill `/task-to-agent`: hand an issue, or a task on an open PR (E2E, review fixes,
 follow-up), to a coding agent (Codex, Claude, Gemini, …) in its own [Paradev](https://paradev.dev)
 workspace, then verify the result and open the PR yourself.
@@ -52,3 +57,7 @@ profile can be handed to a teammate as is.
 
 `SKILL.md` wording changes how agents behave. In the PR, describe what the agent did wrong before
 and the run where you checked it now behaves right.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
